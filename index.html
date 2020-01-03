@@ -1,0 +1,180 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="kk-favicon.png" type="image/x-icon"/>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="parallaxie.js"></script>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89490031-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-89490031-1');
+    </script>
+
+    <!-- Meta Tags -->
+    <title>Kin Kanyon</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <meta name="keywords" content="Kin Kanyon"/> <!-- Need more tags -->
+    <meta name="author" content="Kin Kanyon"/>
+    <meta name="description" content="Born on Canada’s cloudy west coast in Vancouver, BC, Kin Kanyon’s sound is anything but grey or drab. With blinding-bright riffs, wistful vocals and a soulful base for it all to stand on, their music will envelope you in a kaleidoscope of sound."/>
+    <meta name="theme-color" content="#e6d000"/>
+
+    <!-- OG Tags -->
+    <meta property="og:title" content="Kin Kanyon"/>
+    <meta property="og:description" content="Born on Canada’s cloudy west coast in Vancouver, BC, Kin Kanyon’s sound is anything but grey or drab. With blinding-bright riffs, wistful vocals and a soulful base for it all to stand on, their music will envelope you in a kaleidoscope of sound."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="kinkanyon-site.jpg"/> <!-- Change social media image -->
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" value="summary_large_image"/>
+    <meta name="twitter:site" value="@KinKanyon"/>
+    <meta name="twitter:creator" value="@KinKanyon"/>
+    <meta name="twitter:title" value="Kin Kanyon"/>
+    <meta name="twitter:description" value="Born on Canada’s cloudy west coast in Vancouver, BC, Kin Kanyon’s sound is anything but grey or drab. With blinding-bright riffs, wistful vocals and a soulful base for it all to stand on, their music will envelope you in a kaleidoscope of sound."/>
+    <meta name="twitter:image" content="kinkanyon-site.jpg"/> <!-- Change social media image -->
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="wrapper">
+
+        <!-- Navigation -->
+        <a id="nav-button" href="javascript:;" onClick="toggleNav()">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-times"></i>
+        </a>
+        <nav id="nav">
+          <a href="javascript:;" onClick="scrollToDiv('#music')">Music</a>
+          <a href="javascript:;" onClick="scrollToDiv('#about')">About</a>
+          <a href="javascript:;" onClick="scrollToDiv('#tour')">Shows</a>
+          <a href="javascript:;" onClick="scrollToDiv('#contact')">Contact</a>
+          <a href="https://www.facebook.com/kinkanyon/" target="_blank">Facebook</a>
+          <a href="https://www.instagram.com/kinkanyon/" target="_blank">Instagram</a>
+          <a href="https://twitter.com/kinkanyon" target="_blank">Twitter</a>
+          <a href="https://www.youtube.com/user/KinKanyon" target="_blank">Youtube</a>
+          <a href="https://kinkanyon.bandcamp.com/" target="_blank">Bandcamp</a>
+        </nav>
+        <section class="page" data-parallax="scroll" data-iosFix="true" id="home">
+          <div id="social">
+            <a href="https://www.facebook.com/kinkanyon/" target="_blank"> <i class="fab fa-facebook-f"></i> </a>
+            <a href="https://www.instagram.com/kinkanyon/" target="_blank"> <i class="fab fa-instagram"></i> </a>
+            <a href="https://twitter.com/kinkanyon" target="_blank"> <i class="fab fa-twitter"></i> </a>
+            <a href="https://www.youtube.com/user/KinKanyon" target="_blank"> <i class="fab fa-youtube"></i> </a>
+            <a href="https://kinkanyon.bandcamp.com/" target="_blank"> <i class="fab fa-bandcamp"></i> </a>
+          </div>
+        </section>
+
+        <!-- Logo -->
+        <section class="" id="logo">
+          <img src="kin-kanyon.png" alt="Kin Kanyon" width="371" height="56"/>
+        </section>
+
+        <!-- Video -->
+        <section class="page" id="video">
+          <!-- Youtube Embed -->
+          <iframe width="787" height="433"
+          src="https://www.youtube.com/embed/7iUl1xorcFw?controls=0" class=video>
+          </iframe>
+        </section>
+
+        <!-- Music -->
+        <section class="page" id="music">
+          <!-- Spotify Like -->
+          <iframe id="follow-button" src="https://open.spotify.com/follow/1/?uri=spotify:artist:7akXzfVaFrnRot1jQycH9Z&size=detail&theme=light" width="240" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+          <!-- Spotify Player -->
+          <iframe id="play-button" src="https://open.spotify.com/embed/album/1H3a2q50IGo4F3vE4dyL2O" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <!-- Song Link-->
+          <iframe width="100%" height="88" src="https://song.link/embed?url=https://song.link/album/i/1457130244" frameborder="0" allowfullscreen="true"></iframe>  
+        </section>
+
+        <!-- About -->
+        <section class="page" id="about">
+          <h2>About</h2>
+          <div class="content">
+            <p>Kanyon is a soulful, psychedelic rock band hailing from the rain-drenched shores of Canada's west coast. Their sophomore EP, 'Relics Left Behind' (to be released Dec 7), has a spacey, eclectic sound that meanders through lush melodies, pop-infused hooks, and textured break-downs. In 'Until There Was You', fuzzy, phased-out guitars underscore a Prince-like mantra echoing Funkadelic and Lenny Kravitz.</p>
+            <br>
+            <p>Through shimmering guitars, soulful bass lines, and soaring vocals, 'Relics Left Behind' evokes a musical era gone by; paying homage to 60s and 70s rock while remaining entirely unique and hard to define.</p>
+            <br>
+            <p>‘Relics Left Behind’ is available on all streaming now.</p>
+          </div>
+        </section>
+
+        <!-- Press -->
+        <section class="page" id="press">
+          <h2>Press</h2>
+          <div class="content">
+            <p>Released today, “Until There Was You” is a new single from Canadian psych-rockers Kin Kanyon, who will be releasing their sophomore EP Relics Left Behind in early December. They incorporate a love for ’60s and ’70s rock with new, creative ideas, as evident on “Until There Was You.” This one starts with warbling and soaring vocals, which show a smooth Prince-like charisma upon the soulful croon at 00:35. The vocals remain a strong force throughout, even as mounting guitars increase in prominence as the track progresses. The final minute or so unveils a lusher exterior, as the vocals plead “don’t hide your love from me.” It’s a satisfying finale to a smooth-flowing, confident success.</p>
+            <br>
+            <p>- Mike Mineo, Obscure Soud</p>
+          </div>
+        </section>
+
+        <!-- Shows -->
+        <section class="page" id="shows">
+          <h2>Shows</h2>
+          <div class="content">
+            <!-- Songkick widget -->
+            <a href="https://www.songkick.com/artists/7808219" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-background-color="transparent"></a>
+            <script src="//widget.songkick.com/7808219/widget.js"></script>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="page" id="contact">
+          <h2>Contact</h2>
+          <div class="content">KinKanyon@gmail.com </div>
+        </section>
+
+      </div>
+    </div>
+
+    <!-- Nav functionality -->
+    <script>
+      function toggleNav() {
+        $("#nav").toggleClass("open");
+        $("#nav-button").toggleClass("open");
+      }
+      function scrollToDiv(div) {
+        $('html, body').animate({
+          scrollTop: $(div).offset().top + 5
+        }, 1000);
+        toggleNav();
+      }
+      jQuery(document).ready(function($) {
+        var isiOS = /iPhone|iPad|iPod/i.test(navigator.userAgent)
+        if (isiOS) {
+          return
+        } else {
+          $('#home').parallaxie({
+            speed: 0.8,
+            size: 'cover',
+            repeat: 'no-repeat',
+            pos_x: 'center'
+          });
+          $('#home').css("background-size", "cover");
+        }
+      });
+    </script>
+
+  </body>
+
+</html>
